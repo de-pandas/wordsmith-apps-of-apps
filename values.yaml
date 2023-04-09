@@ -1,0 +1,12 @@
+
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    api:
+      repoURL: git@gitlab.com:sandbox-aziz/wordsmith-api.git
+    web:
+      repoURL: git@gitlab.com:sandbox-aziz/wordsmith-web.git
+    db:
+      repoURL: git@gitlab.com:sandbox-aziz/wordsmith-db.git
+    targetRevision: HEAD
